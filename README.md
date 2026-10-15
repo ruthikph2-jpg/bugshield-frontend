@@ -4,78 +4,72 @@
 
 BugShield is an AI-powered web application that detects bugs in your code, automatically generates a fix, and explains the root cause in simple English.
 
-🌐 **Live Demo**: [bugshield-frontend.vercel.app](https://bugshield-frontend.vercel.app)
+---
+
+### 🚀 Try It Live (No Installation Needed!)
+
+Anyone can test the live application directly in the browser:
+
+[![Test BugShield Live](https://img.shields.io/badge/▶_TEST_BUGSHIELD_LIVE-vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://bugshield-frontend.vercel.app/)
+
+👉 **Direct Link**: **[https://bugshield-frontend.vercel.app/](https://bugshield-frontend.vercel.app/)**
+
+> 💡 **Quick Test**: Open the link, click **"Try Sample"** to load a buggy code snippet, and click **"Analyze & Fix Code"** to see the AI detect and resolve the bug in real time!
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Bug Detection** — Identifies syntax errors, logic bugs, and runtime issues
-- 🤖 **AI-Powered Fix** — Automatically generates corrected code using Google Gemini AI
-- 📝 **Clear Explanation** — Step-by-step explanation of what went wrong and how it was fixed
-- 🔧 **What Changed** — Highlights exactly which lines were changed and why
-- 🌐 **Multi-Language Support** — Python, JavaScript, Java, C++, TypeScript, Go, Rust and more
-- 🎨 **Clean Dark UI** — Professional dark-themed interface with code editor
+- 🔍 **Automatic Bug Detection** — Identifies syntax errors, runtime issues, and logic errors.
+- 🤖 **AI-Powered Code Fixer** — Generates clean, corrected code using Google Gemini AI.
+- 📝 **Detailed Explanations** — Plain-English explanation of why the bug occurred and how it was fixed.
+- 🔧 **Line-by-Line Changes** — Displays the buggy line and lists every change made.
+- 🌐 **Multi-Language Support** — Python, JavaScript, Java, C++, TypeScript, Go, Rust, and more.
+- 🎨 **Modern Dark UI** — Responsive interface with built-in code editor, copy button, and samples.
 
 ---
 
 ## 🖥️ Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
-| Frontend | React + Vite |
+|---|---|
+| Frontend | React (Vite) |
 | Backend | Node.js + Express |
-| AI | Google Gemini 1.5 Flash |
-| Deployment (Frontend) | Vercel |
-| Deployment (Backend) | Render |
+| AI Engine | Google Gemini API (Multi-model failover) |
+| Frontend Deployment | Vercel |
+| Backend Deployment | Render |
 | Version Control | Git + GitHub |
 
 ---
 
-## 🚀 Getting Started Locally
+## 🔗 Project Repositories & Services
 
-### 1. Clone the repos
-```bash
-git clone https://github.com/ruthikph2-jpg/bugshield-frontend
-git clone https://github.com/ruthikph2-jpg/bugshield-backend
-```
+- 🎨 **Frontend Repo**: [github.com/ruthikph2-jpg/bugshield-frontend](https://github.com/ruthikph2-jpg/bugshield-frontend)
+- ⚙️ **Backend Repo**: [github.com/ruthikph2-jpg/bugshield-backend](https://github.com/ruthikph2-jpg/bugshield-backend)
+- 🚀 **Live Backend API**: [https://bugshield-backend-y3tm.onrender.com](https://bugshield-backend-y3tm.onrender.com)
 
-### 2. Setup Backend
-```bash
-cd bugshield-backend
-npm install
-cp .env.example .env
-# Add your Gemini API key to .env
-npm start
-```
+---
 
-### 3. Setup Frontend
+## 💻 Local Development
+
+### 1. Clone the repository
 ```bash
+git clone https://github.com/ruthikph2-jpg/bugshield-frontend.git
 cd bugshield-frontend
+```
+
+### 2. Install dependencies
+```bash
 npm install
-# Create .env with VITE_BACKEND_URL=http://localhost:5000
+```
+
+### 3. Run development server
+```bash
 npm run dev
 ```
-
----
-
-## 📸 Screenshots
-
-### Bug Detected & Fixed
-The app detects the bug, shows the corrected code, and explains the fix step by step.
-
----
-
-## 🔗 Related Repos
-
-- **Backend**: [github.com/ruthikph2-jpg/bugshield-backend](https://github.com/ruthikph2-jpg/bugshield-backend)
 
 ---
 
 ## 👨‍💻 Author
 
 **Ruthik PH** — [@ruthikph2-jpg](https://github.com/ruthikph2-jpg)
-
----
-
-⭐ Star this repo if you found it useful!
