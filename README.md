@@ -6,13 +6,11 @@ BugShield is an AI-powered web application that detects bugs in your code, autom
 
 ---
 
-### 🚀 Try It Live (No Installation Needed!)
+### 🚀 Live Demo
 
-Anyone can test the live application directly in the browser:
+[![Live Demo](https://img.shields.io/badge/▶_LIVE_DEMO-bugshield--ruthik.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://bugshield-ruthik.vercel.app/)
 
-[![Test BugShield Live](https://img.shields.io/badge/▶_TEST_BUGSHIELD_LIVE-vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://bugshield-frontend.vercel.app/)
-
-👉 **Direct Link**: **[https://bugshield-frontend.vercel.app/](https://bugshield-frontend.vercel.app/)**
+👉 **[https://bugshield-ruthik.vercel.app/](https://bugshield-ruthik.vercel.app/)**
 
 > 💡 **Quick Test**: Open the link, click **"Try Sample"** to load a buggy code snippet, and click **"Analyze & Fix Code"** to see the AI detect and resolve the bug in real time!
 
@@ -25,7 +23,11 @@ Anyone can test the live application directly in the browser:
 - 📝 **Detailed Explanations** — Plain-English explanation of why the bug occurred and how it was fixed.
 - 🔧 **Line-by-Line Changes** — Displays the buggy line and lists every change made.
 - 🌐 **Multi-Language Support** — Python, JavaScript, Java, C++, TypeScript, Go, Rust, and more.
-- 🎨 **Modern Dark UI** — Responsive interface with built-in code editor, copy button, and samples.
+- 🎨 **Monaco Code Editor** — VS Code-style editor built right into the browser.
+- 🔀 **Side-by-Side Diff Viewer** — Visual comparison of original vs fixed code.
+- 💬 **AI Chat** — Ask follow-up questions about the bug and fix.
+- 📜 **Fix History** — Browse all past analyses stored in MongoDB.
+- ⬇️ **Download Fixed Code** — Export the corrected code instantly.
 
 ---
 
@@ -33,8 +35,9 @@ Anyone can test the live application directly in the browser:
 
 | Layer | Technology |
 |---|---|
-| Frontend | React (Vite) |
+| Frontend | React (Vite) + Monaco Editor |
 | Backend | Node.js + Express |
+| Database | MongoDB Atlas + Mongoose |
 | AI Engine | Google Gemini API (Multi-model failover) |
 | Frontend Deployment | Vercel |
 | Backend Deployment | Render |
@@ -46,7 +49,7 @@ Anyone can test the live application directly in the browser:
 
 - 🎨 **Frontend Repo**: [github.com/ruthikph2-jpg/bugshield-frontend](https://github.com/ruthikph2-jpg/bugshield-frontend)
 - ⚙️ **Backend Repo**: [github.com/ruthikph2-jpg/bugshield-backend](https://github.com/ruthikph2-jpg/bugshield-backend)
-- 🚀 **Live Backend API**: [https://bugshield-backend-y3tm.onrender.com](https://bugshield-backend-y3tm.onrender.com)
+- 🚀 **Live Backend API**: [https://bugshield-ruthik-api.onrender.com](https://bugshield-ruthik-api.onrender.com)
 
 ---
 
@@ -67,6 +70,12 @@ npm install
 ```bash
 npm run dev
 ```
+
+---
+
+## 🔒 License
+
+Copyright (c) 2026 Ruthik PH. All Rights Reserved. See [LICENSE](./LICENSE) for details.
 
 ---
 
